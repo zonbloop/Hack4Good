@@ -11,12 +11,13 @@ def convertToBinaryData(filename):
 def insertBLOB(emp_id, name, ubi, photo, vecdataFile, cont, age, dis):
     print("Inserting BLOB into parent table")
     try:
-        connection = mysql.connector.connect(host='192.168.40.59',
+        connection = mysql.connector.connect(host='***',
                                              database='lost',
                                              user='root',
-                                             password='daftpunkF01.')
+                                             password='***')
 
         cursor = connection.cursor()
+        
         sql_insert_blob_query = """ INSERT INTO principal (ID, Name, Locaction, Img, VecImg, Contact, Age, Disability) VALUES (%s,%s,%s,%s,%s,%s,%s,%s) """
                           
 
