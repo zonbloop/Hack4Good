@@ -58,5 +58,4 @@ We learn how cockroach is better than most of the DB architectures and how to im
 
 The next steps are to finish our web app, link the Wix web app to our cockroach database (or if it is the case, build another website that could handle those databases), also we could implement better algorithms that could classify facial pattern with better accuracy
 
-### Built with
 
