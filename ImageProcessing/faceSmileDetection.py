@@ -1,13 +1,11 @@
-'''
-Haar Cascade Face and Smile detection with OpenCV  
-
-Developed by Marcelo Rovai - MJRoBot.org @ 22Feb2018 
-'''
+"""
+Developed by Marcelo Rovai - MJRoBot.org @ 21Feb18
+Mod. by Fernando M
+"""
 
 import numpy as np
 import cv2
 
-# multiple cascades: https://github.com/Itseez/opencv/tree/master/data/haarcascades
 faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_frontalface_default.xml')
 smileCascade = cv2.CascadeClassifier('Cascades/haarcascade_smile.xml')
  
@@ -44,7 +42,7 @@ while True:
         cv2.imshow('video', img)
 
     k = cv2.waitKey(30) & 0xff
-    if k == 27: # press 'ESC' to quit
+    if k == 27:
         break
 
 cap.release()
