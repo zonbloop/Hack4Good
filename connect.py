@@ -11,7 +11,7 @@ def convertToBinaryData(filename):
 def insertBLOB(emp_id, name, ubi, photo, vecdataFile, cont, age, dis, table, idp=1, number=1, email="d", parent=1):
     print("Inserting BLOB into parent table")
     try:
-        connection = psycopg.connect("postgresql://jorge:uJsQkZbKwSMr9fdYM_7NsQ@free-tier14.aws-us-east-1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full&options=--cluster%3Dlair-ninja-5391")
+        connection = psycopg.connect("***")
         cursor = connection.cursor()
         
         if table == "principal":
