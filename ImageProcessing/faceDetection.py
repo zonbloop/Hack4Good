@@ -1,19 +1,17 @@
-'''
-Haar Cascade Face detection with OpenCV  
-    Based on tutorial by pythonprogramming.net
-    Visit original post: https://pythonprogramming.net/haar-cascade-face-eye-detection-python-opencv-tutorial/  
-Adapted by Marcelo Rovai - MJRoBot.org @ 7Feb2018 
-'''
+
+"""
+Developed by Marcelo Rovai - MJRoBot.org @ 21Feb18
+Mod. by Fernando M
+"""
 
 import numpy as np
 import cv2
 
-# multiple cascades: https://github.com/Itseez/opencv/tree/master/data/haarcascades
 faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_frontalface_default.xml')
 
 cap = cv2.VideoCapture(0)
-cap.set(3,640) # set Width
-cap.set(4,480) # set Height
+cap.set(3,640)
+cap.set(4,480)
 
 while True:
     ret, img = cap.read()
@@ -21,7 +19,6 @@ while True:
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = faceCascade.detectMultiScale(
         gray,
-        
         scaleFactor=1.2,
         minNeighbors=5
         ,     
