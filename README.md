@@ -50,4 +50,13 @@ In order to make the facial recognition algorithm, we made use of OpenCV's funct
 * Make use of new tools without knowing them
 * Project template that could our community
 
+### What we learn
+
+We learn how cockroach is better than most of the DB architectures and how to implement a database that could handle image transformation, more over, we learn how to classify images given a training dataset of people's face.
+
+### What's next for Forgetful Beacon
+
+The next steps are to finish our web app, link the Wix web app to our cockroach database (or if it is the case, build another website that could handle those databases), also we could implement better algorithms that could classify facial pattern with better accuracy
+
+### Built with
 
