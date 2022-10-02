@@ -2,7 +2,7 @@
   src="Images/logo2.jfif"
   alt="Logo"
   title="HackaThon"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="margin: 0 auto; max-width: 100px">
 # Hackathon AllHacks4Good
 <img
   src="Images/logo.jfif"
