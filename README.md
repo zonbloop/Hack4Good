@@ -2,4 +2,4 @@
 ## Forgetful Beacon
 ---
 
-![alt text](https://github.com/zonbloop/Hack4ML/Images/main/logo.jfif?raw=true)
+![alt text](https://github.com/zonbloop/Hack4Good/blob/main/Images/logo.jfif)
